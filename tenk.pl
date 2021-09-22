@@ -44,3 +44,8 @@ ftwo();
 fthree();
 ffour();
 ffive();
+fsix();
+fseven();
+feight();
+fnine();
+ften();
