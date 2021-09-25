@@ -39,6 +39,10 @@ sub ften()
 {
         print "I am Perl submodule number ten\n" ;
 }
+sub feleven()
+{
+        print "I am Perl submodule number eleven\n" ;
+}
 fone();
 ftwo();
 fthree();
@@ -49,3 +53,4 @@ fseven();
 feight();
 fnine();
 ften();
+feleven();
