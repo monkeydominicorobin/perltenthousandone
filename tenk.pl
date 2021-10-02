@@ -1,56 +1,67 @@
 #!/usr/bin/perl
 sub fone()
 {
-        print "I am the first Perl submodule\n" ;
+        return "I am the first Perl submodule" ;
 }
 sub ftwo()
 {
-        print "I am Perl submodule number two\n" ;
+        return "I am Perl submodule number two" ;
 }
 sub fthree()
 {
-        print "I am Perl submodule number three\n" ;
+        return "I am Perl submodule number three" ;
 }
 sub ffour()
 {
-        print "I am Perl submodule number four\n" ;
+        return "I am Perl submodule number four" ;
 }
 sub ffive()
 {
-        print "I am Perl submodule number five\n" ;
+        return "I am Perl submodule number five" ;
 }
 sub fsix()
 {
-        print "I am Perl submodule number six\n" ;
+        return "I am Perl submodule number six" ;
 }
 sub fseven()
 {
-        print "I am Perl submodule number seven\n" ;
+        return "I am Perl submodule number seven" ;
 }
 sub feight()
 {
-        print "I am Perl submodule number eight\n" ;
+        return "I am Perl submodule number eight" ;
 }
 sub fnine()
 {
-        print "I am Perl submodule number nine\n" ;
+        return "I am Perl submodule number nine" ;
 }
 sub ften()
 {
-        print "I am Perl submodule number ten\n" ;
+        return "I am Perl submodule number ten" ;
 }
 sub feleven()
 {
-        print "I am Perl submodule number eleven\n" ;
+        return "I am Perl submodule number eleven" ;
 }
-fone();
-ftwo();
-fthree();
-ffour();
-ffive();
-fsix();
-fseven();
-feight();
-fnine();
-ften();
-feleven();
+$pone = &fone();
+$ptwo = &ftwo();
+$pthree = &fthree();
+$pfour = &ffour();
+$pfive = &ffive();
+$psix = &fsix();
+$pseven = &fseven();
+$peight = &feight();
+$pnine = &fnine();
+$pten = &ften();
+$peleven = &feleven();
+print("$pone\n");
+print("$ptwo\n");
+print("$pthree\n");
+print("$pfour\n");
+print("$pfive\n");
+print("$psix\n");
+print("$pseven\n");
+print("$peight\n");
+print("$pnine\n");
+print("$pten\n");
+print("$peleven\n");
