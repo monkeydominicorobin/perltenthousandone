@@ -103,6 +103,10 @@ sub ftwentysix()
 {
 	return "I am Perl submodule number twenty six" ;
 }
+sub ftwentyseven()
+{
+	return "I am Perl submodule number twenty seven" ;
+}
 $pone = &fone();
 $ptwo = &ftwo();
 $pthree = &fthree();
@@ -129,6 +133,7 @@ $ptwentythree = &ftwentythree();
 $ptwentyfour = &ftwentyfour();
 $ptwentyfive = &ftwentyfive();
 $ptwentysix = &ftwentysix();
+$ptwentysix = &ftwentyseven();
 print("$pone\n");
 print("$ptwo\n");
 print("$pthree\n");
@@ -155,3 +160,4 @@ print("$ptwentythree\n");
 print("$ptwentyfour\n");
 print("$ptwentyfive\n");
 print("$ptwentysix\n");
+print("$ptwentyseven\n");
